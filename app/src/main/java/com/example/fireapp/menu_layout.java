@@ -101,7 +101,7 @@ public class menu_layout extends AppCompatActivity implements View.OnClickListen
                         Toast.makeText(menu_layout.this, "Order Placed", Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(menu_layout.this, MainActivity.class);
                         startActivity(i);
-                        finish();;
+
 
 
                     }
