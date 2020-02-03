@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nnn"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#fff"
+        android:textStyle="bold"
+
+
+        android:textSize="30dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rectangular"
+        android:hint="Enter Name"
+        android:paddingStart="10dp"
+        android:paddingLeft="5dp"
+        android:textColor="#000"
+
+        android:textSize="30dp">
+
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Coffee Type"
+        android:textStyle="bold"
+
+        android:textColor="#fff"
+
+        android:textSize="30dp">
+
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/RGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff">
+
+        <RadioButton
+            android:id="@+id/espresso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Espresso"
+            android:textColor="#fff"
+            android:textSize="20dp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/capetuno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Capetuno"
+            android:textColor="#fff"
+
+            android:textSize="20dp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/latte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+
+
+            android:text="Latte"
+            android:textSize="20dp">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Cup Size"
+        android:textColor="#fff"
+
+        android:textSize="30dp">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/half_rect"
+            android:text="Regular">
+
+        </Button>
+
+        <Button
+            android:id="@+id/medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/full_rect"
+            android:text="Medium">
+
+        </Button>
+
+        <Button
+            android:id="@+id/large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/second_half"
+            android:text="Large">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="110dp">
+
+        <TextView
+            android:id="@+id/Total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+
+            android:text="Total :"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/paisa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:text="0.00"
+            android:textStyle="bold"
+
+            android:textColor="#fff"
+            android:textSize="30dp"
+
+            >
+
+
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/placeOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/full_rect"
+        android:text="Place Order"
+        android:layout_marginTop="30dp"></Button>
+
+</LinearLayout>

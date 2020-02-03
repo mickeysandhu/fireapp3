@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangular"
+
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+android:textColor="#000"
+        android:text="name"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/coffee_name"
+        android:layout_width="match_parent"
+        android:textStyle="italic"
+        android:textColor="#000"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:text="Coffee "
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/coffee_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+
+        android:layout_below="@+id/coffee_name"
+        android:text="size"
+        android:textStyle="italic"
+
+        android:textSize="20dp"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/coffee_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coffee_size"
+        android:textColor="#000"
+
+        android:text="money"
+        android:textStyle="italic"
+
+        android:textSize="20dp"
+
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Ldate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/coffee_money"
+        android:layout_alignParentRight="true"
+        android:textColor="#000"
+
+        android:text="date"
+        android:textStyle="italic"
+        android:textSize="15dp">
+
+    </TextView>
+
+
+</RelativeLayout>
